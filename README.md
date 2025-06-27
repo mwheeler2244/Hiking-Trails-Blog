@@ -5,7 +5,7 @@ A modern, responsive hiking and mountaineering blog built with Next.js, featurin
 
 ## 🔗 Links
 
-- [Live Demo]([https://your-deployed-app.vercel.app](https://hiking-trails-blog-ia86.vercel.app/)
+- [Live Demo](https://hiking-trails-blog-ia86.vercel.app/)
 
 ## ✨ Features
 
