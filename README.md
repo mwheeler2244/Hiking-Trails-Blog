@@ -2,6 +2,11 @@
 
 A modern, responsive hiking and mountaineering blog built with Next.js, featuring trail guides, hiking stories, and outdoor inspiration.
 
+
+## 🔗 Links
+
+- [Live Demo]([https://your-deployed-app.vercel.app](https://hiking-trails-blog-ia86.vercel.app/)
+
 ## ✨ Features
 
 - **Responsive Design**: Beautiful, mobile-first design that works on all devices
@@ -162,9 +167,6 @@ Add new trails to `data/trailGuides.ts`:
 
 This project is open source and available under the [MIT License](LICENSE).
 
-## 🔗 Links
-
-- [Live Demo](https://your-deployed-app.vercel.app) _(Add your deployment URL)_
 - [Report Bug](https://github.com/yourusername/alpine-trails/issues)
 - [Request Feature](https://github.com/yourusername/alpine-trails/issues)
 
