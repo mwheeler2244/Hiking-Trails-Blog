@@ -1,15 +1,13 @@
-import Image from "next/image";
 import { TrailCardProps } from "@/types";
 
 export default function TrailCard({ trail }: TrailCardProps) {
   return (
     <div className="group bg-white dark:bg-gray-900 border-gray-100 dark:border-gray-800 rounded-lg overflow-hidden shadow-sm border hover:shadow-lg transition-all duration-300">
       <div className="relative aspect-w-16 aspect-h-9 bg-gray-100 dark:bg-gray-800 h-48">
-        <Image
+        <img
           src={trail.image}
           alt={trail.name}
-          fill
-          className="object-cover group-hover:scale-105 transition-transform duration-500"
+          className="absolute inset-0 w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
         />
       </div>
       <div className="p-6 space-y-3">

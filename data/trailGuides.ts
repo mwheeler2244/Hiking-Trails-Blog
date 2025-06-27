@@ -9,8 +9,7 @@ export const trailGuides: Trail[] = [
     elevation: "+22,000 ft",
     description:
       "A challenging multi-day trek around Washington's iconic peak through alpine meadows and glacial valleys.",
-    image:
-      "https://images.unsplash.com/photo-1726030040596-a8cad43c5363?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    image: "https://picsum.photos/800/600?random=2",
   },
   {
     id: 2,
@@ -20,8 +19,7 @@ export const trailGuides: Trail[] = [
     elevation: "+4,800 ft",
     description:
       "Yosemite's most famous hike featuring waterfalls, granite steps, and breathtaking valley views.",
-    image:
-      "https://images.unsplash.com/photo-1642788069711-780b90f88a82?q=80&w=2942&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    image: "https://picsum.photos/800/600?random=3",
   },
   {
     id: 3,
@@ -31,7 +29,6 @@ export const trailGuides: Trail[] = [
     elevation: "+1,488 ft",
     description:
       "An exhilarating Zion adventure with chain-assisted climbing and panoramic canyon views.",
-    image:
-      "https://images.unsplash.com/photo-1568454537842-d933259bb258?q=80&w=2787&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    image: "https://picsum.photos/800/600?random=4",
   },
 ];

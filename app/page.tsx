@@ -1,7 +1,7 @@
 "use client";
 import { useEffect, useState } from "react";
 import { Lora } from "next/font/google";
-import Image from "next/image";
+
 import { toast, ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 
@@ -164,11 +164,12 @@ const App = () => {
       />
 
       <section className="relative h-screen bg-gray-900 overflow-hidden">
-        <Image
-          src="https://images.unsplash.com/photo-1720992384761-16a0547bff4d?q=80&w=2831&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+        <img
+          src="https://picsum.photos/2831/1800?random=1"
           alt="Mountain trail at sunrise"
-          fill
-          className={`object-cover ${darkMode ? "opacity-55" : ""}`}
+          className={`absolute inset-0 w-full h-full object-cover ${
+            darkMode ? "opacity-55" : ""
+          }`}
         />
         <div className="absolute inset-0 bg-gradient-to-r from-black/70 to-black/30 dark:from-black/80 dark:to-black/40" />
         <div className="absolute bottom-0 left-0 right-0">
