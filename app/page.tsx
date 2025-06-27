@@ -1,6 +1,7 @@
 "use client";
 import { useEffect, useState } from "react";
 import { Lora } from "next/font/google";
+import Image from "next/image";
 import { toast, ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 
@@ -79,14 +80,17 @@ const App = () => {
     setFormErrors(errors);
     if (!errors.name && !errors.email && !errors.message) {
       console.log("Form submitted:", contactForm);
-      toast.success("Message sent successfully! We'll get back to you soon.", {
-        position: "top-right",
-        autoClose: 3000,
-        hideProgressBar: false,
-        closeOnClick: true,
-        pauseOnHover: true,
-        draggable: true,
-      });
+      toast.success(
+        "Message sent successfully! We&apos;ll get back to you soon.",
+        {
+          position: "top-right",
+          autoClose: 3000,
+          hideProgressBar: false,
+          closeOnClick: true,
+          pauseOnHover: true,
+          draggable: true,
+        }
+      );
       setContactForm({ name: "", email: "", message: "" });
       setTimeout(() => {
         setIsModalOpen(false);
@@ -160,12 +164,11 @@ const App = () => {
       />
 
       <section className="relative h-screen bg-gray-900 overflow-hidden">
-        <img
+        <Image
           src="https://images.unsplash.com/photo-1720992384761-16a0547bff4d?q=80&w=2831&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
           alt="Mountain trail at sunrise"
-          className={`w-full h-full object-cover ${
-            darkMode ? "opacity-55" : ""
-          }`}
+          fill
+          className={`object-cover ${darkMode ? "opacity-55" : ""}`}
         />
         <div className="absolute inset-0 bg-gradient-to-r from-black/70 to-black/30 dark:from-black/80 dark:to-black/40" />
         <div className="absolute bottom-0 left-0 right-0">
@@ -622,8 +625,8 @@ const App = () => {
                   darkMode ? "text-gray-300" : "text-gray-600"
                 }`}
               >
-                Inspiring outdoor adventures and connecting hikers with nature's
-                most beautiful trails.
+                Inspiring outdoor adventures and connecting hikers with
+                nature&apos;s most beautiful trails.
               </p>
               <div className="flex space-x-4">
                 <a
